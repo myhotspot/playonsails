@@ -1,0 +1,15 @@
+self: play -> liftmongorecord 0.1
+
+require:
+    - play
+    - org.scala-lang -> scala-compiler 2.8.1
+    - net.liftweb -> lift-mongodb-record_2.8.1 2.4-M1
+    
+repositories:
+    
+    - Scala Tools:
+        type:       iBiblio
+        root:       http://scala-tools.org/repo-releases
+        contains:   
+            - net.databinder -> *
+            - net.liftweb -> *
